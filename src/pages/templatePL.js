@@ -3,10 +3,10 @@ export default function templatePL() {
 
   return (
     <>
-			<div className="grid w-9/12 grid-cols-3 gap-5 mx-auto my-5">
+			<div className="grid w-10/12 grid-cols-3 gap-5 mx-auto my-5">
 
 				{/* CARD */}
-				<div className="card">
+				<div className="order-3 card">
 						
 					<h2>ToDo List</h2>
 					<p className="my-2">Lista zadań z opcjami edycji i sortowania na podstawie statusu ukończenia.</p>
@@ -41,7 +41,7 @@ export default function templatePL() {
 						<h3>Planowane aktualizacje:</h3>
 						<ul className="text-sm">
 							<li>Magazynowanie zadań w pamięci local storage</li>
-							<li>Zaimplementowanie biblioteki Tailwind CSS</li>
+							<li>Zmiana vanilla CSS na Tailwind</li>
 						</ul>
 					</div>
 
@@ -58,7 +58,7 @@ export default function templatePL() {
 				</div>
 
 				{/* CARD */}
-				<div className="card">
+				<div className="order-2 card">
 
 					<h2>Underhill Hall</h2>
 					<p className="my-2">Aplikacja dla przedsiębiorstwa zajmującego się organizacją wydarzeń/imprez masowych. Pozwala na rezerwację miejsc na poszczególne wydarzenia, kontakt mailowy z obsługą, dokonwanie płatności kartą kredytową, metodą BLIK oraz Google Pay.</p>
@@ -93,8 +93,8 @@ export default function templatePL() {
 						<h3>Planowane aktualizacje:</h3>
 						<ul className="text-sm">
 							<li>Dodanie panelu administratora</li>
-							<li>Zmiana biblioteki SASS na Tailwind</li>
-							<li>Naprawa błędu z okresowym brakiem ładowania panelu płatności</li>
+							<li>Zmiana vanilla CSS na Tailwind</li>
+							<li>Dodanie okna ładowania przy oczekiwaniu na panel płatności</li>
 						</ul>
 					</div>
 
@@ -115,7 +115,15 @@ export default function templatePL() {
 				<div className="card">
 
 					<h2>Sklepico</h2>
-					<p className="my-2">Aplikacja typu e-commerce dla działalności zajmującej się dystrybucją. Posiada panel administratora pozwalający na dodawanie/edycję/usuwanie produktów/kategorii/użytkowników. Zbudowana przy użyciu MERN stack - oferuje wbudowaną autoryzację użytkowników i dokonywanie płatności.</p>
+					<p className="my-2">Aplikacja do prowadzenia działalności e-commerce. Posiada panel administratora pozwalający na dodawanie i edycję produktów i kategorii. Zbudowana przy użyciu MERN stack - zawiera wbudowaną autoryzację użytkowników i system dokonywanie płatności.</p>
+
+					<span className="font-bold">Dane administratora:</span>
+					<div className="grid grid-cols-2 mx-auto">
+						<span >Login:</span>
+						<span className="text-left">admin@admin.com</span>
+						<span>Hasło:</span>
+						<span className="text-left">Test12345!</span>
+					</div>
 
 					<div className="my-2">
 						<h3 className="mt-auto text-xl font-bold">Wykorzystane technologie:</h3>
@@ -141,20 +149,24 @@ export default function templatePL() {
 						</table>
 					</div>
 
-					{/* <h4>Udostępnione przez <span className="font-bold">Render</span>.</h4> */}
+					<h4>Udostępnione przez <span className="font-bold">Render</span>.</h4>
 
-					<div className="p-1 my-2 border border-indigo-400">
+					{/* <div className="p-1 my-2 border border-indigo-400">
 						<h3>Praca w toku</h3>
-					</div>
+					</div> */}
 
+					<small className="py-1"><span className="font-bold">UWAGA</span> Serwer z danymi jest hostowany na darmowym pakiecie Render.com - z tego powodu potrzebuje ok. 30 sekund na rozkręcenie i rozpoczęcie transferu.</small>
 
 					<div className="mt-auto">
+						<a href="https://sklepico.onrender.com/" target="_blank" rel="noreferrer">
+							<button>Strona</button>
+						</a>
 						<a href="https://github.com/HoffmanSan/MERN-app" target="_blank" rel="noreferrer">
 							<button>Źródło</button>
 						</a>
 					</div>
 
-					<small className="mt-2 -mb-2">Praca w toku</small>
+					<small className="mt-2 -mb-2">Ostatnia aktualizacja 10.12.2023</small>
 					
 				</div>
 			</div>
@@ -164,7 +176,7 @@ export default function templatePL() {
 				<h1>Projekty stworzone w trakcie kursów</h1>
 			</div>
 			
-			<div className="grid w-9/12 grid-cols-3 gap-5 mx-auto my-5">
+			<div className="grid w-10/12 grid-cols-3 gap-5 mx-auto my-5">
 
 				{/* CARD */}
 				<div className="card">

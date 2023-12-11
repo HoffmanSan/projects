@@ -2,9 +2,9 @@
 export default function templateEN() {
   return (
     <>
-    <div className="grid w-9/12 grid-cols-3 gap-5 mx-auto my-5">
+    <div className="grid w-10/12 grid-cols-3 gap-5 mx-auto my-5">
     	{/* CARD */}
-				<div className="card">
+				<div className="order-3 card">
 						
 						<h2>ToDo List</h2>
 						<p className="my-2">Simple to-do list with a sorting option based on task's completion status.</p>
@@ -56,7 +56,7 @@ export default function templateEN() {
 					</div>
 
       {/* CARD */}
-			<div className="card">
+			<div className="order-2 card">
 
 				<h2>Underhill Hall</h2>
 				<p className="my-2">Web application for an event hosting enterprise. Includes seat booking functionality and payment options such as credit card, GooglePay and BLIK.</p>
@@ -113,7 +113,7 @@ export default function templateEN() {
 			<div className="card">
 
 				<h2>Sklepico</h2>
-				<p className="my-2">An e-commerce application for a distribution-based enterprise. Includes admin panel allowing to add/edit/delete products/categories/users. Built with MERN stack - contains custom user authentication functionality and payment options.</p>
+				<p className="my-2">An e-commerce application for a goods-distribution enterprise. Includes admin panel allowing to add/edit products and categories. Built with MERN stack - contains custom user authentication functionality and payment options.</p>
 
 				<div className="my-2">
 					<h3 className="mt-auto text-xl font-bold">Implemented technologies:</h3>
@@ -139,20 +139,24 @@ export default function templateEN() {
 					</table>
 				</div>
 
-				{/* <h4>Udostępnione przez <span className="font-bold">Render</span>.</h4> */}
+				<h4>Hosted with <span className="font-bold">Render</span>.</h4>
 
-				<div className="p-1 my-2 border border-indigo-400">
+				{/* <div className="p-1 my-2 border border-indigo-400">
 					<h3>Work in progress</h3>
-				</div>
+				</div> */}
 
+				<small className="py-1"><span className="font-bold">NOTE</span> Backend server is hosted with a free web service package on Render.com which is why it may take up to 30 seconds to start the data transfer.</small>
 
 				<div className="mt-auto">
+				<a href="https://sklepico.onrender.com/" target="_blank" rel="noreferrer">
+						<button>Visit</button>
+					</a>
 					<a href="https://github.com/HoffmanSan/MERN-app" target="_blank" rel="noreferrer">
 						<button>Source</button>
 					</a>
 				</div>
 
-				<small className="mt-2 -mb-2">Work in progress</small>
+				<small className="mt-2 -mb-2">Last update 10.12.2023</small>
 
 			</div>
     </div>
@@ -163,7 +167,7 @@ export default function templateEN() {
 			<h1>Projects made during courses </h1>
     </div>
 		
-    <div className="grid w-9/12 grid-cols-3 gap-5 mx-auto my-5">
+    <div className="grid w-10/12 grid-cols-3 gap-5 mx-auto my-5">
 
 				{/* CARD */}
         <div className="card">
