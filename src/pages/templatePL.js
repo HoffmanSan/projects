@@ -115,7 +115,7 @@ export default function templatePL() {
 				<div className="card">
 
 					<h2>Sklepico</h2>
-					<p className="my-2">Aplikacja do prowadzenia działalności e-commerce. Posiada panel administratora pozwalający na dodawanie i edycję produktów i kategorii. Zbudowana przy użyciu MERN stack - zawiera wbudowaną autoryzację użytkowników i system dokonywanie płatności.</p>
+					<p className="my-2">Aplikacja do prowadzenia działalności e-commerce. Posiada panel administratora pozwalający na dodawanie i edycję produktów i kategorii. Zbudowana przy użyciu MERN stack - zawiera wbudowaną autoryzację użytkowników i system dokonywania płatności.</p>
 
 					<span className="font-bold">Dane administratora:</span>
 					<div className="grid grid-cols-2 mx-auto">
