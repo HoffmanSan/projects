@@ -2,12 +2,12 @@
 export default function templateEN() {
   return (
     <>
-    <div className="grid w-10/12 grid-cols-3 gap-5 mx-auto my-5">
+    <div className="flex flex-wrap w-10/12 gap-5 mx-auto my-5">
     	{/* CARD */}
 				<div className="order-3 card">
 						
-						<h2>ToDo List</h2>
-						<p className="my-2">Simple to-do list with a sorting option based on task's completion status.</p>
+						<h2>HealThyBody</h2>
+						<p className="my-2">An application for managing daily calorie and macronutriens intake.</p>
 	
 						<div className="my-auto">
 							<h3>Implemented technologies:</h3>
@@ -24,35 +24,34 @@ export default function templateEN() {
 								<tbody>
 									<tr>
 										<td>React</td>
-										<td>-</td>
+										<td>Node</td>
 										<td>Vanilla</td>
-										<td>-</td>
-										<td>-</td>
+										<td>PostgreSQL</td>
+										<td>EmailJS</td>
 									</tr>
 								</tbody>
 							</table>
 						</div>
 	
-						<h4>Hosted with <span className="font-bold">GitHub Pages</span>.</h4>
+						<h4>Hosted with <span className="font-bold">Render</span>.</h4>
 	
 						<div className="p-1 my-auto border border-indigo-400">
 							<h3>Planned updates:</h3>
 							<ul className="text-sm">
-								<li>Save tasks in local storage</li>
-								<li>Change vanilla CSS to Tailwind</li>
+								<li>Saving user theme color in local storage</li>
 							</ul>
 						</div>
 	
 						<div className="mt-auto">
-							<a href="https://hoffmansan.github.io/to-do-list-first-project/" target="_blank" rel="noreferrer">
+							<a href="https://twogordev-first-app.onrender.com/" target="_blank" rel="noreferrer">
 								<button>Visit</button>
 							</a>
-							<a href="https://github.com/HoffmanSan/to-do-list-first-project" target="_blank" rel="noreferrer">
+							<a href="https://github.com/TwoGorDev/TwoGorDev-First-App" target="_blank" rel="noreferrer">
 								<button>Source</button>
 							</a>
 						</div>   
 				
-						<small className="mt-2 -mb-2">Last update 11.08.2023</small>
+						<small className="mt-2 -mb-2">Last update 09.05.2024</small>
 					</div>
 
       {/* CARD */}

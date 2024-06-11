@@ -8,8 +8,8 @@ export default function templatePL() {
 				{/* CARD */}
 				<div className="order-3 card">
 						
-					<h2>ToDo List</h2>
-					<p className="my-2">Lista zadań z opcjami edycji i sortowania na podstawie statusu ukończenia.</p>
+					<h2>HealThyBody</h2>
+					<p className="my-2">Aplikacja do monitorowania dziennego spożycia kalorii i makroelementów.</p>
 
 					<div className="my-auto">
 						<h3>Wykorzystane technologie:</h3>
@@ -26,35 +26,34 @@ export default function templatePL() {
 							<tbody>
 								<tr>
 									<td>React</td>
-									<td>-</td>
+									<td>Node</td>
 									<td>Vanilla</td>
-									<td>-</td>
-									<td>-</td>
+									<td>PostgreSQL</td>
+									<td>EmailJS</td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
 
-					<h4>Udostępnione przez <span className="font-bold">GitHub Pages</span>.</h4>
+					<h4>Udostępnione przez <span className="font-bold">Render</span>.</h4>
 
 					<div className="p-1 my-auto border border-indigo-400">
 						<h3>Planowane aktualizacje:</h3>
 						<ul className="text-sm">
-							<li>Magazynowanie zadań w pamięci local storage</li>
-							<li>Zmiana vanilla CSS na Tailwind</li>
+							<li>Magazynowanie koloru motywu wybranego przez użytkownika w pamięci local storage</li>
 						</ul>
 					</div>
 
 					<div className="mt-auto">
-						<a href="https://hoffmansan.github.io/to-do-list-first-project/" target="_blank" rel="noreferrer">
+						<a href="https://twogordev-first-app.onrender.com/" target="_blank" rel="noreferrer">
 							<button>Strona</button>
 						</a>
-						<a href="https://github.com/HoffmanSan/to-do-list-first-project" target="_blank" rel="noreferrer">
+						<a href="https://github.com/TwoGorDev/TwoGorDev-First-App" target="_blank" rel="noreferrer">
 							<button>Żródło</button>
 						</a>
 					</div>   
 			
-					<small className="mt-2 -mb-2">Ostatnia aktualizacja 11.08.2023</small>
+					<small className="mt-2 -mb-2">Ostatnia aktualizacja 09.05.2024</small>
 				</div>
 
 				{/* CARD */}
