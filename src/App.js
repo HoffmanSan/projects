@@ -5,8 +5,7 @@ import PL from "./img/PL.png"
 import GB from "./img/GB.png"
 
 function App() {
-  const [language, setLanguage] = useState("EN")
-
+  const [language, setLanguage] = useState("PL")
 
   return (
     <>
@@ -17,7 +16,9 @@ function App() {
           className="h-12 transition duration-300 border border-gray-200 cursor-pointer hover:scale-110"
           onClick={() => setLanguage("PL")}
         />
+
         <h1>{language === "PL" ? "Projekty osobiste" : "Personal projects"}</h1>
+
         <img
           src={GB} 
           alt="flag of great britain"
@@ -25,6 +26,7 @@ function App() {
           onClick={() => setLanguage("EN")}
         />
       </div>
+      
       {language === "PL" ?
         <TemplatePL />
         :
