@@ -2,9 +2,9 @@
 export default function templateEN() {
   return (
     <>
-    <div className="flex flex-wrap w-10/12 gap-5 mx-auto my-5">
+    <div className="grid w-10/12 grid-cols-3 gap-5 mx-auto my-5">
     	{/* CARD */}
-				<div className="order-3 card">
+				<div className="order-3 w-1/3 card">
 						
 						<h2>HealThyBody</h2>
 						<p className="my-2">An application for managing daily calorie and macronutriens intake.</p>
